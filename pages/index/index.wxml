@@ -1,0 +1,47 @@
+<scroll-view>
+    <view class="scoView">
+        <view class="titleSpace">
+            <view class="indexTitle">12  31</view>
+            <view class="dayTitle">星期天</view>
+
+        </view>
+
+        <navigator url="/pages/pie/pie" class="scroView">
+        <view class="space" bindtap="showCloud">
+            <view class="cotentSpace">
+                <view class="menuSpace">早起打卡</view>
+            </view>
+            <text class="menuIcon7"></text>
+        </view>
+        </navigator>
+
+
+
+
+
+        <navigator url="/pages/pie/pie" class="scroView">
+            <view class="space">
+                <view class="cotentSpace">
+                    <view class="menuSpace">单词打卡</view>
+                </view>
+                <text class="menuIcon2"></text>
+            </view>
+        </navigator>
+
+
+
+
+
+
+
+
+        <cover-view class="coder">Gong.S.J</cover-view>
+            <text class="circle" ></text>
+
+
+
+
+    </view>
+</scroll-view>
+
+
