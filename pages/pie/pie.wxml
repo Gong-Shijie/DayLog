@@ -61,6 +61,7 @@
 
 
     </view>
-
+    <navigator url="/pages/formLog/formLog" class="scroView">
     <text class="circle"></text>
+    </navigator>
 </scroll-view>

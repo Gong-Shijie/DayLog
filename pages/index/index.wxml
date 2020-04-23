@@ -1,22 +1,19 @@
 <scroll-view>
     <view class="scoView">
         <view class="titleSpace">
-            <view class="indexTitle">12  31</view>
-            <view class="dayTitle">星期天</view>
+            <view class="indexTitle">04 23</view>
+            <view class="dayTitle">星期四</view>
 
         </view>
 
         <navigator url="/pages/pie/pie" class="scroView">
-        <view class="space" bindtap="showCloud">
-            <view class="cotentSpace">
-                <view class="menuSpace">早起打卡</view>
+            <view class="space" bindtap="showCloud">
+                <view class="cotentSpace">
+                    <view class="menuSpace">早起打卡</view>
+                </view>
+                <text class="menuIcon7"></text>
             </view>
-            <text class="menuIcon7"></text>
-        </view>
         </navigator>
-
-
-
 
 
         <navigator url="/pages/pie/pie" class="scroView">
@@ -28,17 +25,30 @@
             </view>
         </navigator>
 
+        <navigator url="/pages/pie/pie" class="scroView">
+            <view class="space" bindtap="showCloud">
+                <view class="cotentSpace">
+                    <view class="menuSpace">早起打卡</view>
+                </view>
+                <text class="menuIcon5"></text>
+            </view>
+        </navigator>
 
 
-
-
-
+        <navigator url="/pages/pie/pie" class="scroView">
+            <view class="space">
+                <view class="cotentSpace">
+                    <view class="menuSpace">单词打卡</view>
+                </view>
+                <text class="menuIcon6"></text>
+            </view>
+        </navigator>
 
 
         <cover-view class="coder">Gong.S.J</cover-view>
-            <text class="circle" ></text>
-
-
+        <navigator url="/pages/form/form" class="scroView">
+            <text class="circle"></text>
+        </navigator>
 
 
     </view>
